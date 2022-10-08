@@ -7,18 +7,25 @@
         <!--
             <link rel="stylesheet" href="stylesheet.css" />
         -->
-            <link rel="stylsheet" href="header.css"/>
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="cards.css" />
+        <link rel="stylesheet" href="background.css" />
+        <script src="https://kit.fontawesome.com/82f1cfe4db.js" crossorigin="anonymous"></script>    
         <Title>Matthieu Chevalier</Title>
     </head>
-    
     <body>
+        <div class="background">
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+        </div>
         <!--Définition du header, à répéter sur toutes les pages-->
-        <header>
-            <div>
-                <H1 class="element">Matthieu Chevalier</H1></div>
-            </div>
-            <div>
-                <h2 class="element">Intitulé du poste</h2>
+        <div class="page">
+            <header>
+                <div>
+                    <H1 class="element">Matthieu Chevalier</H1>
+                </div>
+                <div>
+                    <h2 class="element">Intitulé du poste</h2>
             </div>
             <nav class="element">
                 <ul>
@@ -30,33 +37,37 @@
             </nav>
         </header>
         
-        <section class="background"></section>
-        <section class="cards">
-        <div class="card1">
-            <div>
-                <img src="images/photo.jpg" alt="ma photo"/>
-            </div>
-            <H1>Matthieu Chevalier</H1>
-            <h2>Intitulé du poste</h2>
-        </div>
-        <div class="card2">
-            <h1>BONJOUR!</h1>
-            <h2>Je suis Matthieu Chevalier [A-Player]</h2>
-            <p>Je possède des capacités d'adaptation hors du commun, j'apprends rapidement et suis résolument tournés vers l'action. J'ai tendance à réussir et à progresser facilement, indépendamment de l'environnement dans lequel je suis amené à évoluer.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
-        </div>
-        </section>
+        <main>
+             <section class="cardcontainer">
+                 <div class="card card1">
+                        <div>
+                            <img src="images/photo.jpg" alt="ma photo"/>
+                        </div>
+                        <H1>Matthieu Chevalier</H1>
+                        <h2>Intitulé du poste</h2>
+                        <div class="icons">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <h1>BONJOUR!</h1>
+                        <h2>Je suis Matthieu Chevalier [A-Player]</h2>
+                        <p>Je possède des capacités d'adaptation hors du commun, j'apprends rapidement et suis résolument tournés vers l'action. J'ai tendance à réussir et à progresser facilement, indépendamment de l'environnement dans lequel je suis amené à évoluer.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
+                    </div>
+                </section>
+
     
-        <!--Définition du footer, à répéter sur toutes les pages-->
-        <footer>
+                <!--Définition du footer, à répéter sur toutes les pages-->
+                <footer>
                     <ul>
-                         <li class="phone">06.34.60.56.79</li>
-                         <li class="mail"><a href="mailto:matthieu.chevalier.pro@gmail.com">matthieu.chevalier.pro@gmail.com</a></li>
+                        <li class="phone">06.34.60.56.79</li>
+                        <li class="mail"><a href="mailto:matthieu.chevalier.pro@gmail.com">matthieu.chevalier.pro@gmail.com</a></li>
                         <li class="localisation">Oullins (69)</li>
                     </ul>
-        </footer>
-    </body>
-</html>
+                </footer>
+            </main>
+            
+        </div>
+        </body>
+        </html>
