@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.card{
+    height: 380px;
+    min-width: 300px;
+    max-width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1{
+    border-radius: 10px;
+    color: white;
+    background: black;
+
+}
+.card2 h2{
+    text-decoration: underline;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
