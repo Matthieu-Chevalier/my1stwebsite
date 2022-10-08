@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <meta charset="utf-8" />
         <!--Permet de spécifier la taille en fonction de l'écran-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="stylesheet.css" />
+        <!--
+            <link rel="stylesheet" href="stylesheet.css" />
+        -->
+            <link rel="stylsheet" href="header.css"/>
         <Title>Matthieu Chevalier</Title>
-    </header>
+    </head>
     
     <body>
         <!--Définition du header, à répéter sur toutes les pages-->
-        <head>
-            <H1>Matthieu Chevalier</H1>
-            <h2>Intitulé du poste</h2>
-            <nav>
+        <header>
+            <div>
+                <H1 class="element">Matthieu Chevalier</H1></div>
+            </div>
+            <div>
+                <h2 class="element">Intitulé du poste</h2>
+            </div>
+            <nav class="element">
                 <ul>
                     <li><a href="Index.html">A propos</a></li>
                     <li><a href="CV.html">CV</a></li>
@@ -21,28 +28,35 @@
                     <li><a href="Contact.html">Contact</a></li>
                 </ul>
             </nav>
-        </head>
+        </header>
         
         <section class="background"></section>
-        <section class="card1">
+        <section class="cards">
+        <div class="card1">
             <div>
                 <img src="images/photo.jpg" alt="ma photo"/>
             </div>
             <H1>Matthieu Chevalier</H1>
             <h2>Intitulé du poste</h2>
-        </section>
-        <section>
+        </div>
+        <div class="card2">
             <h1>BONJOUR!</h1>
             <h2>Je suis Matthieu Chevalier [A-Player]</h2>
             <p>Je possède des capacités d'adaptation hors du commun, j'apprends rapidement et suis résolument tournés vers l'action. J'ai tendance à réussir et à progresser facilement, indépendamment de l'environnement dans lequel je suis amené à évoluer.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda optio praesentium blanditiis similique culpa odit placeat, officia aspernatur necessitatibus, dolore sint debitis obcaecati omnis porro animi quis laboriosam iste!</p>
+        </div>
         </section>
+    
         <!--Définition du footer, à répéter sur toutes les pages-->
         <footer>
-            <ul>
-                <li class="phone">06.34.60.56.79</li>
-                <li class="mail"><a href="mailto:matthieu.chevalier.pro@gmail.com">matthieu.chevalier.pro@gmail.com</a></li>
-                <li class="localisation">Oullins (69)</li>
-            </ul>
+                    <ul>
+                         <li class="phone">06.34.60.56.79</li>
+                         <li class="mail"><a href="mailto:matthieu.chevalier.pro@gmail.com">matthieu.chevalier.pro@gmail.com</a></li>
+                        <li class="localisation">Oullins (69)</li>
+                    </ul>
         </footer>
     </body>
 </html>
