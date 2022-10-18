@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+}
+.element{
+    border: 1px solid black;
+    
+    flex-grow: unset;
+    flex: 400px;
+    
+}
+.element:first-child{
+    flex-grow: unset;
+    }
+
+.element:last-child{
+    flex-grow: unset;
+    
+    justify-self: flex-end;
+    align-self: flex-end;
+   
+    background-color: aqua;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+    h2{
+        text-align: center;
+    }

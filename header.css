@@ -4,42 +4,53 @@ header{
     top:0;
     left:0;
     width: 100%;
-    display: flex;
     background-color: blue;
     font-size: 1.2em;
-    justify-content: space-around;
+
+    display: flex;
+    justify-content: justify;
     align-items: center;
     flex-wrap: wrap;
-    flex: 200px;
-    height: fit-content;
-      }
-.element{
-    margin:auto;
     
+    height: fit-content;
+}
+
+.element{
+   
+    flex: 400px;
 }
 .element:nth-child(1){
-    justify-self: flex-start;
-    flex-shrink: unset;
-}
-header div
-{
-  flex:300px 1;
-    
+    align-self: flex-start;
+    flex-grow: unset;
+    background-color: red;
     
 }
+.element:nth-child(2){
+    background-color: aquamarine;
+    
+}
+
+.element:nth-child(3){
+    flex-grow: unset;;
+}
+
+
 nav{
+    flex-shrink: unset;
     
-    bottom: 0;
     background-color: aliceblue;
     align-self: flex-end;
-    flex: 600px 2;
-    
+    justify-self: right;
+     
+    width: fit-content;
 }
+ 
 nav ul{
-    
-    
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     
+    }
+nav ul li{    
+    flex-grow: unset;
 }
