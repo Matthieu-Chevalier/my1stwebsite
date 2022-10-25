@@ -1,34 +1,32 @@
 header{
     position:fixed;
-    z-index: 3;
+    z-index: 10;
     top:0;
     left:0;
     width: 100%;
-    background-color: blue;
-    font-size: 1.2em;
-
+    background-color: white;
+    font-size: 1em;
     display: flex;
-    justify-content: justify;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    
     height: fit-content;
 }
 
 .element{
    
-    flex: 400px;
+    flex: 350px;
 }
 .element:nth-child(1){
     align-self: flex-start;
     flex-grow: unset;
-    background-color: red;
+    background-color: none;
     
 }
-.element:nth-child(2){
-    background-color: aquamarine;
+/* .element:nth-child(2){
+ background-color: aquamarine; 
     
-}
+} */
 
 .element:nth-child(3){
     flex-grow: unset;;
@@ -37,8 +35,7 @@ header{
 
 nav{
     flex-shrink: unset;
-    
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     align-self: flex-end;
     justify-self: right;
      

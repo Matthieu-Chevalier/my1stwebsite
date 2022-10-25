@@ -1,3 +1,5 @@
+@import "/css/variables.css";
+
 .background{
     position: fixed;
     top:0;
@@ -11,11 +13,11 @@
     
 }
 .bg1{
-    flex: 1;
-    background-color: aqua;
+    flex: 33%;
+    background-color: var(--main-backgroud-color);
     z-index: 1;
 }
 .bg2{
-    flex: 2;
+    flex: 77%;
     z-index: 1;
 }
