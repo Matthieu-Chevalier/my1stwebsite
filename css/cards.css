@@ -1,7 +1,6 @@
 @import "/css/variables.css";
 
 .cardcontainer{
-    /* margin: 10px 0 0 10px; */
     padding: 10px;
     background-color: transparent;
     display: flex;
@@ -13,11 +12,9 @@
     text-align: justify;
     border-bottom: 2px solid;
     border-image-slice: 1;
-    /* border-width: 1px; */
     border-image-source: linear-gradient(to right,transparent 0%, var(--border-color)50%, transparent 100%);
 }
 .card{
-    
     height: 380px;
     min-width: 300px;
     max-width: 30em;
@@ -34,7 +31,6 @@
     background: var(--left-card-background-color);
     z-index: 9;
 }
-
 .card2{
     background-color: white;
     z-index: 8;
@@ -42,11 +38,6 @@
 .card2 h2{
     font-size: 1.2rem;
 }
-/* p{
-    margin: 10px;
-    margin: 10px;
-    
-} */
 .card :is(h1, h3, h2)
 {
     text-align: center;
