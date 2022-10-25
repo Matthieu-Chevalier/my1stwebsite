@@ -1,7 +1,5 @@
 .cardcontainer{
-    
     background-color: transparent;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +7,6 @@
     flex-wrap: wrap;
 }
 .card{
-    z-index: 2;
     height: 380px;
     min-width: 300px;
     max-width: 30em;
