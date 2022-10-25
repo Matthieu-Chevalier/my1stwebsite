@@ -37,3 +37,20 @@ nav ul{
 nav ul li{    
     flex-grow: unset;
 }
+footer{
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+    font-size: 1em;
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
